@@ -1,0 +1,27 @@
+.AutoCompleteTexts {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.73);
+  font-size: 14px;
+}
+.AutoCompleteTexts ul {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 60px;
+  padding: 0;
+  width: 9.8%;
+  position: absolute;
+  transition: ease-in-out 0.4;
+}
+.AutoCompleteTexts ul:before {
+  content: "";
+}
+
+.AutoCompleteTexts li {
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color: white;
+}
+.AutoCompleteTexts li :hover {
+  text-decoration: underline;
+  background-color: rgba(128, 128, 128, 0.28);
+}
